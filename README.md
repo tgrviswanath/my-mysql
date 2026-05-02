@@ -54,6 +54,8 @@ my-mysql/
 │   ├── db_seed.sql
 │   ├── backup_restore.sh
 │   └── common_snippets.sql
+├── 09_system-design/       🏗️ Database system design — sharding, replication, HA
+│   └── 01_database_system_design.md   Primary-replica, sharding, connection pooling, e-commerce schema
 └── README.md
 ```
 
@@ -93,6 +95,12 @@ my-mysql/
 - Window functions mastery
 - Scenario-based design questions
 - Query optimization challenges
+
+### Week 11–12: System Design
+- Database architecture: replication, sharding, HA
+- Connection pooling and proxy patterns
+- Designing for scale: e-commerce, analytics, multi-tenant
+- Trade-offs: MySQL vs NoSQL, ACID vs BASE
 
 ---
 
@@ -148,7 +156,8 @@ mysql -u root -p practice_db < beginner/03_basic_crud.sql
 | Interview Readiness | 9/10 | 100+ Q&A, Easy→Hard + scenarios |
 | Real-World Applicability | 9/10 | 4 complete projects with schemas |
 | Performance Tuning Coverage | 9.5/10 | EXPLAIN, indexes, locking, partitioning |
-| **Overall** | **9.2/10** | |
+| System Design Coverage | 9/10 | Sharding, replication, HA, connection pooling |
+| **Overall** | **9.3/10** | |
 
 ### Gaps & Next Steps
 - Distributed SQL: CockroachDB, TiDB comparison
